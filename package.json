@@ -1,0 +1,44 @@
+{
+  "name": "avio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "bunx drizzle-kit generate",
+    "db:migrate": "bunx drizzle-kit migrate",
+    "db:studio": "bunx drizzle-kit studio"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.19.1",
+    "@neondatabase/serverless": "^1.0.0",
+    "@tanstack/react-form": "^1.10.0",
+    "@tanstack/react-query": "^5.75.7",
+    "@uploadthing/react": "^7.3.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.43.1",
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-masonry-css": "^1.0.16",
+    "svix": "^1.65.0",
+    "tailwind-merge": "^3.2.0",
+    "uploadthing": "^7.7.2",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
